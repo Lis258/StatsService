@@ -12,10 +12,7 @@ public class StatsService {
 
     public int averageSum(int[] purchases){
         int sum = calculateSum(purchases);
-        int averageSum = 0;
-        for (int purchase : purchases){
-            averageSum = sum / purchases.length;
-        }
+        int averageSum = sum / purchases.length;
         return averageSum;
     }
 
